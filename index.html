@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPortalGames</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="logo-boton">MiPortalGames</a>
+    <nav>
+      <ul>
+        <li><a href="#ultimas-noticias">Noticias</a></li>
+        <li><a href="#rom-detalle">ROMs disponibles</a></li>
+        <li><a href="#seccion-comentarios">Comentarios</a></li>
+      </ul>
+    </nav>
+    <div class="buscador-contenedor">
+      <input id="buscador" type="search" placeholder="Buscar noticias..." />
+    </div>
+  </header>
+
+  <main>
+    <section id="ultimas-noticias">
+      <h2>Últimas Noticias</h2>
+    
+            <div class="pagina" onclick="window.location.href='noticia1.html';">
+                <img src="img/nintendo.webp" alt="Imagen de la noticia" class="imagen-noticia">
+                <h3>RESUMEN PRESENTACIÓN NINTENDO SWITCH 2: PRECIO, FECHA...</h3>
+                <p>Toda información de Nintendo Switch 2 en directo. Repasamos la actualidad de 
+                    la nueva consola de Nintendo antes del Direct: precio, fecha de lanzamiento, juegos y posibles anuncios.</p>
+            </div>
+
+            <div class="pagina" onclick="window.location.href='noticia2.html';">
+                <img src="img/swich.webp" alt="Imagen de la noticia" class="imagen-noticia">
+                <h3>ESPECIFICACIONES TÉCNICAS DE NINTENDO SWITCH</h3>
+                <p>Nintendo Switch 2 sale a la venta el 5 de junio. Estas son sus características técnicas como lo son 
+                    el almacenamiento y duración de la batería.</p>
+            </div>
+
+            <div class="pagina" onclick="window.location.href='noticia3.html';">
+                <img src="img/precios.jpeg" alt="Imagen de la noticia" class="imagen-noticia">
+                <h3>NINTENDO SUBE LOS PRECIOS DE SUS JUEGOS PARA SWITCH 2</h3>
+                <p>Nintendo confirma que los juegos de lanzamiento de Nintendo Switch 2 llegarán hasta los 90 euros en formato físico y 80 euros en formato digital.</p>
+            </div>
+
+            <div class="pagina" onclick="window.location.href='noticia4.html';">
+                <img src="img/mario-kart-world-2025421827526_1.jpg.webp" alt="Imagen de la noticia" class="imagen-noticia">
+                <h3>NINTENDO LO HACE OFICIAL: SE ANUNCIA MARIO KART WORLD EN EXCLUSIVA PARA NINTENDO SWITCH 2</h3>
+                <p>¡BOMBAZO! Nintendo ha abierto el Nintendo Direct dedicado a la Nintendo Switch 2 con el anuncio de Mario Kart World, la esperada novena entrega de la saga.</p>
+            </div>
+    </section>
+
+    <section id="rom-detalle">
+      <h2>Roms disponibles</h2>
+      <div class="pagina"  onclick="window.location.href='rom1.html';">
+                <img src="img/white 2.webp" alt="ROMs Nintendo" class="imagen-noticia">
+                <h3>Pokemon White 2</h3>
+                <p>Son videojuegos de rol de la serie Pokémon, desarrollados por Game Freak y publicados por Nintendo.</p>
+            </div>
+
+            <div class="pagina"  onclick="window.location.href='rom2.html';">
+                <img src="img/reload.jpg" alt="Emuladores" class="imagen-noticia">
+                <h3>Shin Megami Tensei: Persona 3 Reload</h3>
+                <p>La historia se centra en un grupo de estudiantes de secundaria que descubre una "Hora Oscura" entre un día y otro.</p>
+            </div>
+
+            <div class="pagina"  onclick="window.location.href='rom3.html';">
+                <img src="img/the_legend_of_zelda_ocarina_of_time-1692464.jpg" alt="Emuladores" class="imagen-noticia">
+                <h3> The Legend Of Zelda: Ocarina Of Time</h3>
+                <p>Es un videojuego de acción y aventura desarrollado y publicado por Nintendo en 1998 para la consola Nintendo 64.</p>
+            </div>
+
+            <div class="pagina"  onclick="window.location.href='rom4.html';">
+                <img src="img/minish.jpg" alt="Emuladores" class="imagen-noticia">
+                <h3>The Tegend Of Zelda: Minish Cap</h3>
+                <p>Videojuego de aventura de acción desarrollado por Flagship y publicado por Nintendo para la consola Game Boy Advance, parte de la serie The Legend of Zelda.</p>
+            </div>
+
+    </section>
+
+    <section id="seccion-comentarios">
+      <h2>Comentarios</h2>
+      <form id="form-comentario">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <textarea name="comentario" placeholder="Escribe tu comentario" required></textarea>
+        <button type="submit">Enviar comentario</button>
+      </form>
+      <div id="comentarios-lista"></div>
+    </section>
+  </main>
+
+   <footer>
+        <p>&copy; 2025 MiPortalGames. Moises Uscategui.</p>
+        <div class="redes-contacto">
+           <a href="https://github.com/MoisesAlejandroUscateguiPuentes" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+            <a href="mailto:moises.uscategui@uptc.edu.co" title="Correo"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+        
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

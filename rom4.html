@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MiPortalGames - The Legend Of Zelda: Minish Cap</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-boton">MiPortalGames</a>
+    </header>
+
+    <main class="rom-detalle-contenedor">
+
+        <div class="rom-contenido-principal">
+            <!-- Información de la ROM -->
+            <section class="rom-info">
+                <img src="img/minish.jpg" alt="Carátula de Zelda Minish Cap" class="rom-caratula" />
+                <div class="rom-detalle-texto">
+                    <h2>The Legend Of Zelda: Minish Cap</h2>
+                    <p><strong>Tamaño:</strong> 16.4 MB</p>
+                    <p>Videojuego de aventura de acción desarrollado por Flagship y publicado por Nintendo para la consola Game Boy Advance, parte de la serie The Legend of Zelda.</p>
+                    <a href="roms/Legend of Zelda, The - The Minish Cap (USA).gba" download class="boton-descarga">💾 Descargar Juego</a>
+                    <div class="rom-advertencia">
+                        <a href="emuladores/VisualBoyAdvance-M 64-bit.7z" download class="boton-descarga">Emulador GameBoy</a>    
+                    </div>
+                </div>
+            </section>
+
+            <!-- Noticias Recomendadas -->
+            <aside id="noticias-recomendadas">
+                <h3>ROMs recomendados</h3>
+                <ul>
+                    <li>
+                        <img src="img/reload.jpg" alt="Shin Megami Tensei Persona 3 Reload" class="imagen-menu" />
+                        <a href="rom2.html"><p>Shin Megami Tensei: Persona 3 Reload</p></a>
+                    </li>
+                    <li>
+                        <img src="img/the_legend_of_zelda_ocarina_of_time-1692464.jpg" alt="The Legend Of Zelda Ocarina Of Time" class="imagen-menu" />
+                        <a href="rom3.html"><p>The Legend Of Zelda: Ocarina Of Time</p></a>
+                    </li>
+                    <li>
+                        <img src="img/white 2.webp" alt="Pokemon White 2" class="imagen-menu" />
+                        <a href="rom1.html"><p>Pokemon: White 2</p></a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <section id="seccion-comentarios">
+      <h2>Comentarios</h2>
+      <form id="form-comentario">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <textarea name="comentario" placeholder="Escribe tu comentario" required></textarea>
+        <button type="submit">Enviar comentario</button>
+      </form>
+      <div id="comentarios-lista"></div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MiPortalGames. Moisés Uscátegui.</p>
+        <div class="redes-contacto">
+            <a href="https://github.com/MoisesAlejandroUscateguiPuentes" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+            <a href="mailto:moises.uscategui@uptc.edu.co" title="Correo"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
